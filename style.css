@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato" sans-serif;
+  background-image: url("image.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 900px;
+  background-color: #fff;
+  min-height: 30px;
+  padding: 80px 90px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.leftside,
+.rightside {
+  width: 50%;
+}
+
+.leftside img {
+  width: 300px;
+  height: 300px;
+}
+
+.rightside h1 {
+  color: #9932cc;
+  font-size: 32px;
+}
+
+.rightside h2 {
+  color: #444;
+  margin: 20px auto 10px;
+  font-size: 25px;
+}
+
+.rightside ul {
+  color: #444;
+  margin: 20px auto 10px;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: bold;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.rightside a {
+  background-color: #9932cc;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 15px 0;
+}
+
+.rightside ul li {
+  margin-top: 5px;
+}
+
+/* from here we will design css of question.html */
+
+.box {
+  border-radius: 10px solid red;
+  background-color: white;
+  border-radius: 10px;
+  width: 640px;
+  min-height: 350px;
+  padding: 50px;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  color: black;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scorebox,
+.timebox {
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.questionbox {
+  background-color: #594a76;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.optionbox {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+  /* margin: 15px; */
+  /* background-color: #ccc; */
+}
+
+.optionbox button {
+  text-align: start;
+  margin: 5px 0px;
+  border-radius: 10px;
+  color: #444;
+  padding: 10px 10px;
+  border: 1px solid #444;
+  /* border: none; */
+}
+
+.optionbox #four {
+  margin-bottom: 20px;
+}
+
+.optionbox button:hover {
+  border: 2px solid #452c63;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer button {
+  background-color: #1da3dd;
+  outline: none;
+  color: white;
+  padding: 7px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid black;
+  margin: 0px 10px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.content span {
+  font-weight: 600;
+}
+
+.btn1 {
+  background-color: #1da3dd;
+  outline: none;
+  color: white;
+  padding: 7px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+#dd {
+  display: flex;
+  justify-content: center;
+}

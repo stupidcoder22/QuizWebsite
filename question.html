@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+      <div class="box" id="questionScreen">
+          <div class="title">
+              Online Web Project
+          </div>
+          <div class="header">
+              <div class="scorebox">Score : 0</div>
+              <div class="timebox">Time left: <span id="timeval">00:00</span></div>
+          </div>
+
+          <div class="questionbox" id="boxquestion"></div>
+
+          <div class="optionbox" id="ob">
+              <button onClick="reply_click(this.id)" id="one"></button>
+              <button onClick="reply_click(this.id)" id="two"></button>
+              <button onClick="reply_click(this.id)" id="three"></button>
+              <button onClick="reply_click(this.id)" id="four"></button>
+          </div>
+          <div class="footer">
+              <button onclick="showNext()">Next</button>
+              <button id="scr" onclick="Scoreccard()">Show Result</button>
+          </div>
+      </div>
+    </div>
+     
+      <div class="box" id="scoreScreen" style="display: none;">
+          <div class="title">
+            <h2>Quiz Results</h2>
+          </div>
+          <div class="content">
+              <label for="">Questions : </label>
+              <span id="totalquestion">10</span>
+
+              <label for="">Attempt : </label>
+              <span id="attempt">0</span>
+
+              <label for="">Correct : </label>
+              <span id="correct">0</span>
+
+              <label for="">Wrong : </label>
+              <span id="Wrong">0</span>
+          </div>
+
+          <div id="dd">
+            <a class="btn1" href="index.html">Start Again</a>
+          </div>
+      </div>
+</body>
+<script src="app.js"></script>
+</html>
